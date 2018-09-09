@@ -16,7 +16,7 @@ namespace AutoFac_Interception
             //Equivalent to getting data from back-end service
             var data = _barService.GetData(minValue, maxValue);
 
-            //Equivalent to computing result based on business logic. Ignore 
+            //Equivalent to computing result based on business logic 
             var result = (double) data / someOtherParam;
 
             return result;
