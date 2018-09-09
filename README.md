@@ -1,5 +1,7 @@
 # Autofac-Interception
-Implementing cross cutting concerns in .Net core application using interception feature of Autofac
+[![Build status](https://ci.appveyor.com/api/projects/status/jo8dljw2xab0bfd0?svg=true)](https://ci.appveyor.com/project/patelhi/autofac-interception)
+
+This repo contains sample project that implements cross cutting concerns in .Net core application using interception feature of Autofac
 
 #### Configure interceptors (ex: logging ) in IoC Container
 ```
